@@ -1,0 +1,221 @@
+.hidden {
+    display: none;
+}
+
+#main {
+    height: 1fr;
+}
+
+#sidebar {
+    width: 39;
+    border-right: tall $panel;
+    padding: 0 1;
+}
+
+#course-info {
+    padding: 0 0 1 0;
+    width: 100%;
+}
+
+.sidebar-title {
+    text-style: bold;
+    color: $text-muted;
+}
+
+#sections {
+    height: 1fr;
+    border: none;
+    padding: 0;
+}
+
+#tabs {
+    width: 1fr;
+}
+
+#table, #problems, #preview {
+    height: 1fr;
+}
+
+#filter {
+    margin: 0 0 1 0;
+}
+
+#suggestions {
+    height: auto;
+    max-height: 10;
+    border: round $accent;
+    margin: -1 0 1 0;
+}
+
+#sections-pane {
+    height: 1fr;
+}
+
+#sections-pane .buttons {
+    align-horizontal: left;
+}
+
+#sections-pane .buttons Button {
+    margin: 0 1 0 0;
+    min-width: 8;
+    width: auto;
+}
+
+#quickadd Input {
+    border-title-color: $text-muted;
+}
+
+#quickadd {
+    height: 3;
+    background: $boost;
+    padding: 0 1;
+    margin-bottom: 1;
+}
+
+#qa-label {
+    padding: 1 1 0 0;
+    text-style: bold;
+    color: $accent;
+}
+
+#qa-book {
+    width: 10;
+}
+
+#qa-page {
+    width: 11;
+}
+
+#qa-term {
+    width: 1fr;
+}
+
+/* ---------------------------------------------------------------- dialogs */
+ModalScreen {
+    align: center middle;
+}
+
+#dialog {
+    width: 100;
+    max-width: 95%;
+    height: auto;
+    max-height: 95%;
+    border: thick $accent;
+    background: $surface;
+    padding: 1 2;
+}
+
+#dialog.wide {
+    width: 120;
+    height: 90%;
+}
+
+#dialog.small {
+    width: 60;
+}
+
+.dialog-title {
+    text-style: bold;
+    color: $accent;
+    margin-bottom: 1;
+}
+
+#levels {
+    grid-size: 2;
+    grid-columns: 18 1fr;
+    height: auto;
+}
+
+#levels .hidden {
+    display: none;
+}
+
+.col-head {
+    color: $text-muted;
+}
+
+#course-grid {
+    grid-size: 2;
+    grid-columns: 10 1fr;
+    height: auto;
+}
+
+#section-grid {
+    grid-size: 2;
+    grid-columns: 21 1fr;
+    height: auto;
+}
+
+#course-grid Label, #section-grid Label {
+    padding: 1 0;
+}
+
+.row {
+    height: auto;
+}
+
+.field-label {
+    padding: 1 1 0 1;
+}
+
+.short {
+    width: 12;
+}
+
+#rest {
+    width: 1fr;
+}
+
+#rating {
+    width: 20;
+}
+
+#icons {
+    height: 7;
+    margin-top: 1;
+}
+
+#entry-preview {
+    margin: 1 0;
+    min-height: 1;
+}
+
+#raw {
+    margin-bottom: 1;
+}
+
+.buttons {
+    height: auto;
+    align-horizontal: right;
+}
+
+.buttons Button {
+    margin-left: 2;
+}
+
+#report {
+    height: auto;
+    max-height: 12;
+}
+
+#log {
+    height: 1fr;
+}
+
+#sections-table {
+    height: 1fr;
+    margin: 1 0;
+}
+
+#sections-help {
+    height: auto;
+}
+
+#section-preview {
+    margin: 1 0;
+    min-height: 2;
+}
+
+#course-title {
+    padding: 1 0 0 0;
+}

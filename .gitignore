@@ -1,0 +1,31 @@
+# Temp files
+*~
+*.backup
+*.bak
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Documentation
+site/
+
+# LaTeX by-products
+*.aux
+*.ilg
+*.ind
+*.log
+*.synctex.gz
